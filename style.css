@@ -1,0 +1,90 @@
+
+    /* body{
+   
+        
+      } */
+    .abc {
+      color: rgb(238, 159, 13);
+      font-size: larger;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /* .div1.div2{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 2rem;
+padding: 2px;
+} */
+    #front-banner {
+      background: url(img/1.png);
+      background-size: cover;
+      background-position: center center;
+      height: 85vh;
+      background-size: cover;
+
+    }
+
+    .def {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+    }
+
+    .btn {
+      outline: transparent;
+      border-radius: 50px;
+    }
+
+    .typewrite {
+      text-decoration: none;
+      color: rgb(238, 159, 13);
+
+
+    }
+
+    #animate-text:hover {
+      text-decoration: none;
+      color: rgb(238, 159, 13);
+    }
+
+    .btn1 {
+      margin-top: 50px;
+      width: 170px;
+      height: 50px;
+      border-radius: 10px;
+
+
+    }
+
+    .btn1:hover {
+      background-color: transparent;
+    }
+
+
+        .card img{
+            height: 10vh;
+        }
+
+    
+ 
+ #row2{
+    height: 50vh;
+ }
+
+ .card{
+    height: 25vh;
+ }
+.card:hover{
+  border-color: rgb(238, 159, 13);
+  transform:scale(1.1);
+  margin: 5px;
+  
+}
+ .dropdown-item:hover{
+    background-color: gray;
+    color: white;
+ }
+ 

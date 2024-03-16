@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeCar'z Limited </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: rgb(238, 159, 13);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(0, 0, 0);
+            color: rgb(233, 232, 232);
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: rgb(238, 159, 13);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        p {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .btn {
+            background-color:rgb(238, 159, 13);
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            /* outline: rgb(238, 159, 13); */
+        }
+
+        .btn:hover {
+            background-color: rgb(238, 159, 13);
+            
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>For Car Theft Insurance</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to SafeCarz Insurance</h2>
+        <p>
+            At SecureDrive Insurance, we understand the importance of protecting your valuable assets. 
+            Our Car Theft Insurance offers comprehensive coverage to safeguard your vehicle against theft, providing you with peace of mind.
+        </p>
+
+        <p>
+            Choose from our range of insurance plans - Basic, Standard, or Premium - designed to suit your specific needs and budget. 
+            We prioritize your security and strive to make the insurance process simple and hassle-free.
+        </p>
+
+        <h2>Insurance Plan Details</h2>
+        <p>
+            Our plans cover theft scenarios comprehensively, ensuring that you are financially protected in case of any unfortunate events. 
+            Don't let worries about car theft weigh you down; let SecureDrive Insurance take care of it for you.
+        </p>
+
+        <h2>Get a Quote</h2>
+        <form> 
+            <label for="carModel">Car Model:</label>
+            <input type="text" id="carModel" name="carModel" required>
+
+            <label for="carYear">Car Year:</label>
+            <input type="number" id="carYear" name="carYear" required>
+
+            <label for="coverageType">Coverage Type:</label>
+            <select id="coverageType" name="coverageType">
+                <option value="basic">Basic</option>
+                <option value="standard">Standard</option>
+                <option value="premium">Premium</option>
+            </select>
+
+            <label for="insuranceTerm">Insurance Term (in years):</label>
+            <input type="number" id="insuranceTerm" name="insuranceTerm" required>
+
+            <button class="btn" type="submit">Get Insured</button>
+        </form>
+    </section>
+
+</body>
+</html>
